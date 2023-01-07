@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+h1{
+    font-size: 36px;
+    margin-bottom: 12px;
+}
+.banner {
+    background-image: url(imge.jpeg);
+    height: 55vh;
+    color: white;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner_content {
+    padding-top: 210px;
+}
+.banner_button {
+    margin-top: 10px;
+    padding: 14px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+}
+.banner_button:hover {
+    color: white;
+    background-color: red;
+}
+.donation {
+    text-align: center;
+    margin-top: 5%;
+}
+.donate-amount {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.amount {
+    background-color: rgb(189, 212, 212);
+    padding: 10px;
+    margin-right: 15px;
+    color: black;
+    border: 5px rgb(174, 207, 205) solid;
+}
+.active {
+    background-color: blueviolet;
+    color: white;
+    border: 5px blueviolet solid;
+}
+#input-text {
+    font-size: 22px;
+    text-align: center;
+    width: 550px;
+    border: none;
+    border-bottom: 2px rgb(174, 207, 205) solid;
+    
+
+}
+.donate_button {
+    color: rgb(24, 17, 36);
+    padding: 16px;
+    font-size: 18px;
+    border-radius: 7px;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 18px;
+    margin-top: 5px;
+}
+.food {
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+}
+.flex-container {
+    display: flex;
+    margin-top: 25px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.plan {
+    border: 2px rgb(57, 76, 88) solid;
+    background-color: rgb(255, 255, 255);
+    margin-right: 5px;
+    padding: 25px;
+    height: 160px;
+}
+.gallery {
+    text-align: center;
+    margin-top: 5%;
+}
+.image-row {
+    display: flex;
+}
+.image-row img {
+    width: 25%;
+    padding: 2px;
+    margin: 2px;
+}
